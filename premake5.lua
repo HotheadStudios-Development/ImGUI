@@ -2,7 +2,7 @@ project "ImGUI"
     location "project"
 	kind "StaticLib"
 	language "C++"
-    staticruntime "off"
+    staticruntime "on"
 
 	targetdir ("%{wks.location}/bin/" .. outputDir .. "/FaE")
 	objdir ("%{wks.location}/bin-obj/" .. outputDir .. "/FaE")
